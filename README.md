@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/aljager1983/order-summary-component]
-- Live Site URL: [https://aljager1983.github.io/interactive-rating-component/]
+- Live Site URL: [https://aljager1983.github.io/order-summary-component/]
 
 ## My process
 
