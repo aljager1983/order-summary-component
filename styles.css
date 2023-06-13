@@ -2,6 +2,7 @@
     --font: 'Red Hat Display', sans-serif;
     --Paleblue: hsl(225, 100%, 94%);
     --Brightblue: hsl(245, 75%, 52%);
+    --OpaBrightblue: hsl(245, 68%, 62%);
     --Verypaleblue: hsl(225, 100%, 98%);
     --Desaturatedblue: hsla(224, 23%, 55%, 5%);
     --Darkblue: hsl(223, 47%, 23%);
@@ -47,7 +48,7 @@ h1 {
 }
 
 h2, h3 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1rem;
     padding: 0;
     margin: 0;
@@ -62,7 +63,7 @@ h4 {
     text-decoration: underline;
     font-size: .9 rem;
     font-weight: 700;
-    color: #8b83f3;
+    color: var(--Brightblue);
 }
 
 h4:hover {
@@ -71,6 +72,7 @@ h4:hover {
 p {
     font-size: 1rem;
     font-weight: 500;
+    color: grey;
 }
 
 .pricing {
@@ -99,15 +101,21 @@ p {
     margin: 1.5rem;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0px 10px #8b83f3;
+    box-shadow: 0px 10px 15px hsl(222, 62%, 71%);
 }
 
 .button:hover {
     cursor:pointer;
+    background: var(--OpaBrightblue);
 }
 
 .cancel {
     margin-bottom: 1.5rem;
+    color: grey;
+}
+.cancel:hover {
+    cursor:pointer;
+    color:black;
 }
 
 @media screen and (min-width: 376px) {
