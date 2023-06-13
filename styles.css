@@ -68,6 +68,8 @@ h4 {
 
 h4:hover {
     cursor:pointer;
+    text-decoration: none;
+    color: var(--OpaBrightblue);
 }
 p {
     font-size: 1rem;
